@@ -39,7 +39,7 @@ So in a nutshell, the complete command sequence in a Linux shell to install on a
 
     apt update
     apt install git
-    git clone https://github.com/onemarcfifty/kali-linux-docker.git
+    git clone https://github.com/AjieDev/kali-linux-docker-arm64.git
     cd kali-linux-docker
     cp env_template env
     [fill_in_env_variables]
