@@ -12,7 +12,7 @@ XSSH_PORT=20022
 
 # Container desktop environment
 # Options: "xfce" "mate" "kde" "e17" "gnome" "i3" "i3-gaps" "live" "lxde"
-XDESKTOP_ENVIRONMENT="xfce"
+XDESKTOP_ENVIRONMENT="gnome"
 
 # Remote access metohod for desktop
 # Options: "vnc" "rdp" "x2go"
@@ -22,7 +22,7 @@ XREMOTE_ACCESS="rdp"
 
 # Kali packages
 # Options: "arm" "core" "default" "everything" "firmware" "headless" "labs" "large" "nethunter"
-XKALI_PKG="core"
+XKALI_PKG="arm"
 
 # Network configuration
 # Options: "bridge" "host"
@@ -31,7 +31,7 @@ XNETWORK="bridge"
 # Target build architecture
 # Options: "amd64" "arm64"
 # Other untested options: https://docs.docker.com/build/building/multi-platform/
-XBUILD_PLATFORM="amd64"
+XBUILD_PLATFORM="arm64"
 
 # Name for local custom Docker image
 DOCKERIMG="custom/kali-linux"
@@ -46,7 +46,7 @@ HOSTDIR="/home/user"
 CONTAINERDIR="/opt"
 
 # Username for container user
-USERNAME="user"
+USERNAME="ajie"
 
 # Password for container user
-PASSWORD="password123"
+PASSWORD="ajiedev"
